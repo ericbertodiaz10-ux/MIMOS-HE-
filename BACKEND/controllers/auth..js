@@ -28,7 +28,7 @@ export const registro = async (req, res) => {
         // Rol por defecto
         const rol_defecto = 'usuario';
 
-        // Crear usuario
+        // Crear usuario guardar en la base de datos
         const { data: nuevoUsuario, error } = await crearUser(
             nombre,
             email,

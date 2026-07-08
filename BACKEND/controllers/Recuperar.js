@@ -51,7 +51,7 @@ export const forgoPassword = async (req, res) => {
                 <p>El equipo de soporte</p>
                 <p>No compartas este codigo con nadie</p>
             `
-        });
+        });   
 
         return res.status(200).json({ message: 'Codigo de recuperacion enviado por el correo' });
 
