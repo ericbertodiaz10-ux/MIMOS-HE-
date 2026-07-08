@@ -1,4 +1,4 @@
-import { obtenerTodos, obtenerporId, obtenerPorCategoria, crearHelado, actualizarHelado, eliminarHelado } from '../models/heladoModel.js';
+import { obtenerTodos, obtenerporId, obtenerPorCategoria, crearHelado, actualizarHelado, eliminarHelado } from '../models/helado.js';
 
 export const listarHelados = async (requestAnimationFrame, res) => {
     try {

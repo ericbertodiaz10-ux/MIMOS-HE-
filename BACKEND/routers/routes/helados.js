@@ -1,6 +1,6 @@
 import express from 'express';
-import { listarHelados, obtenerHelado, obtenerPorCategoria, crear, editar, eliminar } from '../../controllers/heladoController';
-import { eliminarHelado } from '../../models/heladoModel';
+import { listarHelados, obtenerHelado, obtenerPorCategoria, crear, editar, eliminar } from '../../controllers/helado';
+import { eliminarHelado } from '../../models/helado';
 
 const router = express.Router();
 
