@@ -3,7 +3,7 @@ import {
     getUsersController, 
     getUsuarioPorId, 
     actualizarUsuario 
-} from '../../controllers/User.js'; 
+} from '../controllers/User.js'; // 👈 Cambiado a ../
 
 const router = express.Router(); // 👈 Esta línea debe estar SOLO UNA VEZ aquí arriba.
 
